@@ -1,0 +1,24 @@
+---
+title: "Test R Notebook"
+output: html_notebook
+---
+<div><h1>prueba</h1></div>
+
+Solve cuadratic 
+
+```{r}
+a <- 3
+b <- 2
+c <- -1
+(-b + sqrt(b^2 - 4*a*c))/ (2*a)
+(-b - sqrt(b^2 - 4*a*c))/ (2*a)
+```
+
+addition of positive nums "n"
+
+```{r}
+n <- 10
+x <- seq(1, n)
+sum(x)
+```
+
